@@ -6,8 +6,8 @@ const Layout = () => {
     <div className={styles.container}>
       <Link to="/">Generator</Link>
       <Link to="/scan">Scanner</Link>
-      <Link to="">History generator</Link>
-      <Link to="">History scanner</Link>
+      <Link to="scan/history">History generator</Link>
+      <Link to="generator/history">History scanner</Link>
       <Outlet />
     </div>
   );
